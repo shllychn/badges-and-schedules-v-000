@@ -1,11 +1,15 @@
 def badge_maker(name)
-  puts "Hello, my name is #{name}"
+  return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(names)
-  names = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
-  names.each do |name|
-    badges << "Hello, my name is #{name}."
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+def batch_badge_creator(speakers)
+  speakers.each do |name|
+    badges << "Hello, my name is #{speaker}."
   end
-  puts badges
+  return badges
+end
+
+def assign_rooms()
 end
